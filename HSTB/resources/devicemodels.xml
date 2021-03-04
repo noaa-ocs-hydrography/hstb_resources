@@ -1,0 +1,4053 @@
+<?xml version="1.0"?>
+<HIPSSonarModel Version="1.0">
+  <SonarModel label="Atlas FS20" key="atlas_FS20">
+    <Max_Num_Beams value="600"/>
+    <Operating_Frequency_1 value="10.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="45.0"/>
+    <Beam_Width_Across value="0.100"/>
+    <Beam_Width_Along value="1.20"/>
+    <Beam_Shape_Factor value="0.3"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="5000.0"/>
+    <Range_Sampling_Distance value="0.00"/>
+    <Min_Pulse_Length value="0.126"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Atlas Hydrosweep DS" key="hsweepds">
+    <Max_Num_Beams value="59"/>
+    <Operating_Frequency_1 value="15.5"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="45.0"/>
+    <Beam_Width_Across value="2.3"/>
+    <Beam_Width_Along value="2.3"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="5000.0"/>
+    <Range_Sampling_Distance value="0.10"/>
+    <Min_Pulse_Length value="5.0"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Benthos C3D" key="benthosC3d">
+    <Max_Num_Beams value="5000"/>
+    <Operating_Frequency_1 value="200000"/>
+    <Max_Angle value="80.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Min_Pulse_Length value="0.05"/>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>  
+  <SonarModel label="Elac 1050D 50kHz" key="en1050db">
+    <Max_Num_Beams value="126"/>
+    <Operating_Frequency_1 value="50"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="77.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value=""/>
+    <Range_Sampling_Distance value="0.06"/>
+    <Min_Pulse_Length value="0.30"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Elac 1050D 180kHz" key="en1050da">
+    <Max_Num_Beams value="126"/>
+    <Operating_Frequency_1 value="180.5"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="77.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="3.75"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value=""/>
+    <Range_Sampling_Distance value="0.06"/>
+    <Min_Pulse_Length value="0.15"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Elac Nautik 1180" key="en1180">
+    <Max_Num_Beams value="126"/>
+    <Operating_Frequency_1 value="180.5"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="77.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="24000.0"/>
+    <Range_Sampling_Distance value="0.06"/>
+    <Min_Pulse_Length value="0.15"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Elac 3020 2ms" key="e30202">
+    <Max_Num_Beams value="401"/>
+    <Operating_Frequency_1 value="20.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="5.0"/>
+    <Range_Sampling_Frequency value="3000"/>
+    <Range_Sampling_Distance value="0.25"/>
+    <Min_Pulse_Length value="2"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Elac 3020 4ms" key="e30204">
+    <Max_Num_Beams value="401"/>
+    <Operating_Frequency_1 value="20.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="5.0"/>
+    <Range_Sampling_Frequency value="3000"/>
+    <Range_Sampling_Distance value="0.5"/>
+    <Min_Pulse_Length value="4"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Elac 3020 6ms" key="e30206">
+    <Max_Num_Beams value="401"/>
+    <Operating_Frequency_1 value="20.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="5.0"/>
+    <Range_Sampling_Frequency value="3000"/>
+    <Range_Sampling_Distance value="1.0"/>
+    <Min_Pulse_Length value="6"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="GeoSwath Plus" key="geoswath">
+    <Max_Num_Beams value="9000"/>
+    <Operating_Frequency_1 value="250"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="0.02"/>
+    <Beam_Width_Along value="0.9"/>
+    <Steering_Angle value="180.00"/>
+    <Range_Sampling_Frequency value="50000.0"/>
+    <Range_Sampling_Distance value="0.015"/>
+    <Min_Pulse_Length value="0.0032"/>
+    <Rates>
+      <Repetition value="125"/>
+      <Bathy value="125"/>
+      <Attitude value="50"/>
+      <Imagery value="125"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Imagenex DeltaT (260kHz with Orientation)" key="dt260a">
+    <Max_Num_Beams value="480" /> 
+    <Operating_Frequency_1 value="260.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="60.0" /> 
+    <Beam_Width_Across value="0.75" /> 
+    <Beam_Width_Along value="3.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="37500.0" /> 
+    <Range_Sampling_Distance value="0.02" /> 
+    <Min_Pulse_Length value="0.18" /> 
+    <Rates>
+      <Repetition value="6" />
+      <Bathy value="6" />
+      <Attitude value="6" />
+      <Imagery value="6" />
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="1" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="No" /> 
+      <HasAccuracy value="No" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="No" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="Yes" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Knudsen 320m" key="kn320">
+    <Max_Num_Beams value="1"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="50.0"/>
+    <Max_Angle value="0.0"/>
+    <Beam_Width_Across value="8.0"/>
+    <Beam_Width_Along value="8.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="2000.0"/>
+    <Range_Sampling_Distance value="0.060"/>
+    <Min_Pulse_Length value="0.07"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="No"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Std (200kHz 512 Beams)" key="12003-AACDB-200">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="1.8"/>
+    <Beam_Width_Along value="3.8"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Narrow (200kHz 512 Beams)" key="12003-AABDB-200">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="1.8"/>
+    <Beam_Width_Along value="1.9"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Std (300kHz 512 Beams)" key="12003-AACDB-300">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="300.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="1.2"/>
+    <Beam_Width_Along value="2.53"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Narrow (300kHz 512 Beams)" key="12003-AABDB-300">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="300.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="1.2"/>
+    <Beam_Width_Along value="2.53"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Std (400kHz 512 Beams)" key="12003-AACDB-400">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="0.9"/>
+    <Beam_Width_Along value="1.9"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Narrow (400kHz 512 Beams)" key="12003-AABDB-400">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="0.9"/>
+    <Beam_Width_Along value="0.95"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Std (550kHz 512 Beams)" key="12003-AACDB-550">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="550.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="0.65"/>
+    <Beam_Width_Along value="1.38"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Narrow (550kHz 512 Beams)" key="12003-AABDB-550">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="550.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="0.65"/>
+    <Beam_Width_Along value="0.69"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Std (700kHz 512 Beams)" key="12003-AACDB-700">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="700.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="0.51"/>
+    <Beam_Width_Along value="1.1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Norbit WBMS-Narrow (700kHz 512 Beams)" key="12003-AABDB-700">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="700.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="200.0"/>
+    <Beam_Width_Across value="0.51"/>
+    <Beam_Width_Along value="0.55"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Odom Echotrac CV" key="oecv">
+    <Max_Num_Beams value="2"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="50.0"/>
+    <Max_Angle value="0"/>
+    <Beam_Width_Across value="8.0"/>
+    <Beam_Width_Along value="8.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="2000.0"/>
+    <Range_Sampling_Distance value="0.06"/>
+    <Min_Pulse_Length value="0.07"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="No"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Odom Echotrac MKII" key="oemk2">
+    <Max_Num_Beams value="1"/>
+    <Operating_Frequency_1 value="100.0"/>
+    <Operating_Frequency_2 value="20.0"/>
+    <Max_Angle value="5.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="20000.0"/>
+    <Range_Sampling_Distance value="0.06"/>
+    <Min_Pulse_Length value="0.07"/>
+    <Rates>
+      <Repetition value="40"/>
+      <Bathy value="40"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Odom Echotrac MKIII (24 KHz)" key="oemk3_24">
+    <Max_Num_Beams value="1"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="0.0"/>
+    <Beam_Width_Across value="4.0"/>
+    <Beam_Width_Along value="4.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="20000.0"/>
+    <Range_Sampling_Distance value="0.15"/>
+    <Min_Pulse_Length value="0.01"/>
+    <Rates>
+      <Repetition value="20"/>
+      <Bathy value="20"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="No"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Odom Echotrac MKIII (200 KHz)" key="oemk3">
+    <Max_Num_Beams value="1"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="0.0"/>
+    <Beam_Width_Across value="4.0"/>
+    <Beam_Width_Along value="4.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="20000.0"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.01"/>
+    <Rates>
+      <Repetition value="20"/>
+      <Bathy value="20"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="No"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="ProSAS 60" key="prosas60">
+    <Max_Num_Beams value="39352" /> 
+    <Operating_Frequency_1 value="60.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="80.0" /> 
+    <Beam_Width_Across value="0.01" /> 
+    <Beam_Width_Along value="0.286" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="17361.0" /> 
+    <Range_Sampling_Distance value="0.043" /> 
+    <Min_Pulse_Length value="0.03" /> 
+    <Rates>
+      <Repetition value="3" /> 
+      <Bathy value="3" /> 
+      <Attitude value="50" /> 
+      <Imagery value="3" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="1" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="Yes" /> 
+      <Towed value="Yes" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="No" /> 
+      <HasAccuracy value="No" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="Yes" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="Yes" />  
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="R2 Sonics 2020 200kHz" key="r2s2020a">
+    <Max_Num_Beams value="256" /> 
+    <Operating_Frequency_1 value="200.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="65.0" /> 
+    <Beam_Width_Across value="4.0" /> 
+    <Beam_Width_Along value="4.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="65280.0" /> 
+    <Range_Sampling_Distance value="0.023" /> 
+    <Min_Pulse_Length value="0.015" /> 
+    <Rates>
+      <Repetition value="60" /> 
+      <Bathy value="60" /> 
+      <Attitude value="0" /> 
+      <Imagery value="60" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="Yes" /> 
+      <HasAccuracy value="Yes" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="Yes" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="R2 Sonics 2020 400kHz" key="r2s2020b">
+    <Max_Num_Beams value="256" /> 
+    <Operating_Frequency_1 value="400.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="65.0" /> 
+    <Beam_Width_Across value="2.0" /> 
+    <Beam_Width_Along value="2.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="65280.0" /> 
+    <Range_Sampling_Distance value="0.023" /> 
+    <Min_Pulse_Length value="0.015" /> 
+    <Rates>
+      <Repetition value="60" /> 
+      <Bathy value="60" /> 
+      <Attitude value="0" /> 
+      <Imagery value="60" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="Yes" /> 
+      <HasAccuracy value="Yes" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="Yes" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" />  
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="R2 Sonics 2022 200kHz" key="r2s2022a">
+    <Max_Num_Beams value="256" /> 
+    <Operating_Frequency_1 value="200.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="80.0" /> 
+    <Beam_Width_Across value="2.0" /> 
+    <Beam_Width_Along value="2.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="65280.0" /> 
+    <Range_Sampling_Distance value="0.023" /> 
+    <Min_Pulse_Length value="0.015" /> 
+    <Rates>
+      <Repetition value="60" /> 
+      <Bathy value="60" /> 
+      <Attitude value="0" /> 
+      <Imagery value="60" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="Yes" /> 
+      <HasAccuracy value="Yes" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="Yes" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="R2 Sonics 2022 400kHz" key="r2s2022b">
+    <Max_Num_Beams value="256" /> 
+    <Operating_Frequency_1 value="400.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="80.0" /> 
+    <Beam_Width_Across value="1.0" /> 
+    <Beam_Width_Along value="1.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="65280.0" /> 
+    <Range_Sampling_Distance value="0.023" /> 
+    <Min_Pulse_Length value="0.015" /> 
+    <Rates>
+      <Repetition value="60" /> 
+      <Bathy value="60" /> 
+      <Attitude value="0" /> 
+      <Imagery value="60" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="Yes" /> 
+      <HasAccuracy value="Yes" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="Yes" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" />  
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="R2 Sonics 2024 200kHz" key="r2s2024a">
+    <Max_Num_Beams value="256" /> 
+    <Operating_Frequency_1 value="200.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="80.0" /> 
+    <Beam_Width_Across value="1.0" /> 
+    <Beam_Width_Along value="2.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="65280.0" /> 
+    <Range_Sampling_Distance value="0.023" /> 
+    <Min_Pulse_Length value="0.015" /> 
+    <Rates>
+      <Repetition value="60" /> 
+      <Bathy value="60" /> 
+      <Attitude value="0" /> 
+      <Imagery value="60" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="Yes" /> 
+      <HasAccuracy value="Yes" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="Yes" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" />  
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="R2 Sonics 2024 400kHz" key="r2s2024b">
+    <Max_Num_Beams value="256" /> 
+    <Operating_Frequency_1 value="400.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="80.0" /> 
+    <Beam_Width_Across value="0.5" /> 
+    <Beam_Width_Along value="1.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="65280.0" /> 
+    <Range_Sampling_Distance value="0.023" /> 
+    <Min_Pulse_Length value="0.015" /> 
+    <Rates>
+      <Repetition value="60" /> 
+      <Bathy value="60" /> 
+      <Attitude value="0" /> 
+      <Imagery value="60" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="Yes" /> 
+      <HasAccuracy value="Yes" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="Yes" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" /> 
+    </DeviceProperties>
+  </SonarModel>  
+  <SonarModel label="Reson SeaBat 7101 (101 Beams)" key="sb7101a">
+    <Max_Num_Beams value="101" /> 
+    <Operating_Frequency_1 value="240.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="75.0" /> 
+    <Beam_Width_Across value="1.8" /> 
+    <Beam_Width_Along value="1.7" /> 
+    <Steering_Angle value="361.0" /> 
+    <Range_Sampling_Frequency value="15000.0" /> 
+    <Range_Sampling_Distance value="0.05" /> 
+    <Min_Pulse_Length value="0.021" /> 
+    <Rates>
+      <Repetition value="40" /> 
+      <Bathy value="40" /> 
+      <Attitude value="0" /> 
+      <Imagery value="40" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="No" /> 
+      <HasAccuracy value="No" /> 
+      <Steered value="No" /> 
+      <Splithead value="No" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7101 (239 Beams)" key="sb7101b">
+    <Max_Num_Beams value="239" /> 
+    <Operating_Frequency_1 value="240.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="75.0" /> 
+    <Beam_Width_Across value="1.8" /> 
+    <Beam_Width_Along value="1.7" /> 
+    <Steering_Angle value="0.00" /> 
+    <Range_Sampling_Frequency value="15000.0" /> 
+    <Range_Sampling_Distance value="0.05" /> 
+    <Min_Pulse_Length value="0.021" /> 
+    <Rates>
+      <Repetition value="40" /> 
+      <Bathy value="40" /> 
+      <Attitude value="0" /> 
+      <Imagery value="40" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="No" /> 
+      <HasAccuracy value="No" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="No" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7101 (511 Beams)" key="sb7101c">
+    <Max_Num_Beams value="511" /> 
+    <Operating_Frequency_1 value="240.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="75.0" /> 
+    <Beam_Width_Across value="1.8" /> 
+    <Beam_Width_Along value="1.7" /> 
+    <Steering_Angle value="0.00" /> 
+    <Range_Sampling_Frequency value="15000.0" /> 
+    <Range_Sampling_Distance value="0.05" /> 
+    <Min_Pulse_Length value="0.021" /> 
+    <Rates>
+      <Repetition value="40" /> 
+      <Bathy value="40" /> 
+      <Attitude value="0" /> 
+      <Imagery value="40" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="0" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="No" /> 
+      <DualFrequency value="No" /> 
+      <HasAccuracy value="No" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="No" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="No" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7111(101 beams)" key="sb7111a">
+    <Max_Num_Beams value="101"/>
+    <Operating_Frequency_1 value="100.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="77"/>
+    <Beam_Width_Across value="1.9 "/>
+    <Beam_Width_Along value="1.5 "/>
+    <Steering_Angle value="90"/>
+    <Range_Sampling_Frequency value="6022"/>
+    <Range_Sampling_Distance value="0.031" /> 
+    <Min_Pulse_Length value="0.17"/>
+    <Rates>
+      <Repetition value="20"/>
+      <Bathy value="40"/>
+      <Attitude value="40"/>
+      <Imagery value="40"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7111(201 beams)" key="sb7111b">
+    <Max_Num_Beams value="201"/>
+    <Operating_Frequency_1 value="100.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="77"/>
+    <Beam_Width_Across value="1.9 "/>
+    <Beam_Width_Along value="1.5 "/>
+    <Steering_Angle value="90"/>
+    <Range_Sampling_Frequency value="6022"/>
+    <Range_Sampling_Distance value="0.031"/>
+    <Min_Pulse_Length value="0.17"/>
+    <Rates>
+      <Repetition value="20"/>
+      <Bathy value="40"/>
+      <Attitude value="40"/>
+      <Imagery value="40"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7111(301 beams)" key="sb7111c">
+    <Max_Num_Beams value="301"/>
+    <Operating_Frequency_1 value="100.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="77"/>
+    <Beam_Width_Across value="1.9 "/>
+    <Beam_Width_Along value="1.5 "/>
+    <Steering_Angle value="90"/>
+    <Range_Sampling_Frequency value="6022"/>
+    <Range_Sampling_Distance value="0.031"/>
+    <Min_Pulse_Length value="0.17"/>
+    <Rates>
+      <Repetition value="20"/>
+      <Bathy value="40"/>
+      <Attitude value="40"/>
+      <Imagery value="40"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7125 (200kHz 128 Beams)" key="sb7125a">
+    <Max_Num_Beams value="128"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="64.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.003"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7125 (200kHz 256 Beams)" key="sb7125b">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="64.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.003"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7125 (400kHz 240 Beams)" key="sb7125xx">
+    <Max_Num_Beams value="240"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="64.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7125 (400kHz 256 Beams)" key="sb7125c">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="64.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7125 (400kHz 512 Beams)" key="sb7125d">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="64.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34482.75862"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7150 12kHz (0-400 m)" key="sb7150a">
+    <Max_Num_Beams value="880"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="6022.0"/>
+    <Range_Sampling_Distance value="0.12"/>
+    <Min_Pulse_Length value="1.000"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="Yes"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7150 12kHz (400 - 1200 m)" key="sb7150b">
+    <Max_Num_Beams value="880"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="3011.0"/>
+    <Range_Sampling_Distance value="0.24"/>
+    <Min_Pulse_Length value="1.000"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="Yes"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7150 12kHz (1200 - 2390 m)" key="sb7150c">
+    <Max_Num_Beams value="880"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="1505.5"/>
+    <Range_Sampling_Distance value="0.48"/>
+    <Min_Pulse_Length value="1.000"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="Yes"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7150 12kHz (2390 - 6390 m)" key="sb7150d">
+    <Max_Num_Beams value="880"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="752.75"/>
+    <Range_Sampling_Distance value="0.96"/>
+    <Min_Pulse_Length value="1.000"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="Yes"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7150 12kHz (6390 - 12800 m)" key="sb7150e">
+    <Max_Num_Beams value="880"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="376.375"/>
+    <Range_Sampling_Distance value="1.92"/>
+    <Min_Pulse_Length value="1.000"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="Yes"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 7160" key="sb7160">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="44.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="80.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="6022.28"/>
+    <Range_Sampling_Distance value="0.124"/>
+    <Min_Pulse_Length value="0.16"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="Yes"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8101" key="sb8101">
+    <Max_Num_Beams value="101"/>
+    <Operating_Frequency_1 value="240.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.8"/>
+    <Beam_Width_Along value="1.7"/>
+    <Steering_Angle value="361.0"/>
+    <Range_Sampling_Frequency value="15000.0"/>
+    <Range_Sampling_Distance value="0.05"/>
+    <Min_Pulse_Length value="0.021"/>
+    <Rates>
+      <Repetition value="40"/>
+      <Bathy value="40"/>
+      <Attitude value="0"/>
+      <Imagery value="40"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8111" key="sb8111">
+    <Max_Num_Beams value="101"/>
+    <Operating_Frequency_1 value="100.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="361.0"/>
+    <Range_Sampling_Frequency value="5000.0"/>
+    <Range_Sampling_Distance value="0.037"/>
+    <Min_Pulse_Length value="0.080"/>
+    <Rates>
+      <Repetition value="35"/>
+      <Bathy value="35"/>
+      <Attitude value="0"/>
+      <Imagery value="35"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8124" key="sb8124">
+    <Max_Num_Beams value="80"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="60.0"/>
+    <Beam_Width_Across value="1.75"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="361.0"/>
+    <Range_Sampling_Frequency value="7500.0"/>
+    <Range_Sampling_Distance value="0.014"/>
+    <Min_Pulse_Length value="0.100"/>
+    <Rates>
+      <Repetition value="40"/>
+      <Bathy value="40"/>
+      <Attitude value="0"/>
+      <Imagery value="40"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8125" key="sb8125">
+    <Max_Num_Beams value="240"/>
+    <Operating_Frequency_1 value="455.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="60.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="361.0"/>
+    <Range_Sampling_Frequency value="28438.0"/>
+    <Range_Sampling_Distance value="0.006"/>
+    <Min_Pulse_Length value="0.011"/>
+    <Rates>
+      <Repetition value="40"/>
+      <Bathy value="40"/>
+      <Attitude value="0"/>
+      <Imagery value="40"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 12kHz (5-500 m)" key="sb8150b">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="9479.0"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.500"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 12kHz (750-1000 m)" key="sb8150d">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="4740.0"/>
+    <Range_Sampling_Distance value="0.04"/>
+    <Min_Pulse_Length value="0.500"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 12kHz (1250-2000 m)" key="sb8150f">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="2370.0"/>
+    <Range_Sampling_Distance value="0.079"/>
+    <Min_Pulse_Length value="0.500"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 12kHz (2500-4000 m)" key="sb8150h">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="1580.0"/>
+    <Range_Sampling_Distance value="0.119"/>
+    <Min_Pulse_Length value="0.500"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 12kHz (5000 m)" key="sb8150j">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="948.0"/>
+    <Range_Sampling_Distance value="0.198"/>
+    <Min_Pulse_Length value="0.500"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 12kHz (7500-15000 m)" key="sb8150l">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="395.0"/>
+    <Range_Sampling_Distance value="0.475"/>
+    <Min_Pulse_Length value="0.500"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>  
+  <SonarModel label="Reson SeaBat 8150 24kHz (5-500 m)" key="sb8150a">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="9479.0"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.300"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 24kHz (750-1000 m)" key="sb8150c">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="4740.0"/>
+    <Range_Sampling_Distance value="0.04"/>
+    <Min_Pulse_Length value="0.300"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 24kHz (1250-2000 m)" key="sb8150e">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="2370.0"/>
+    <Range_Sampling_Distance value="0.079"/>
+    <Min_Pulse_Length value="0.300"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 24kHz (2500-4000 m)" key="sb8150g">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="1580.0"/>
+    <Range_Sampling_Distance value="0.119"/>
+    <Min_Pulse_Length value="0.300"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 24kHz (5000 m)" key="sb8150i">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="948.0"/>
+    <Range_Sampling_Distance value="0.198"/>
+    <Min_Pulse_Length value="0.300"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8150 24kHz (7500-15000 m)" key="sb8150k">
+    <Max_Num_Beams value="234"/>
+    <Operating_Frequency_1 value="24.0"/>
+    <Operating_Frequency_2 value="12.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="395.0"/>
+    <Range_Sampling_Distance value="0.475"/>
+    <Min_Pulse_Length value="0.300"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8160 (5-750 m)" key="sb8160a">
+    <Max_Num_Beams value="126"/>
+    <Operating_Frequency_1 value="50.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="7109.0"/>
+    <Range_Sampling_Distance value="0.014"/>
+    <Min_Pulse_Length value="0.200"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8160 (1000-1500 m)" key="sb8160b">
+    <Max_Num_Beams value="126"/>
+    <Operating_Frequency_1 value="50.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="3555.0"/>
+    <Range_Sampling_Distance value="0.029"/>
+    <Min_Pulse_Length value="0.200"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 8160 (1750-5000 m)" key="sb8160c">
+    <Max_Num_Beams value="126"/>
+    <Operating_Frequency_1 value="50.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="1185.0"/>
+    <Range_Sampling_Distance value="0.086"/>
+    <Min_Pulse_Length value="0.200"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 9001" key="sb9001">
+    <Max_Num_Beams value="60"/>
+    <Operating_Frequency_1 value="455.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="361.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="45.0"/>
+    <Range_Sampling_Frequency value="14205.0"/>
+    <Range_Sampling_Distance value="0.05"/>
+    <Min_Pulse_Length value="0.071"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat 9003" key="sb9003">
+    <Max_Num_Beams value="40"/>
+    <Operating_Frequency_1 value="455.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="60.0"/>
+    <Beam_Width_Across value="3.0"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="361.0"/>
+    <Range_Sampling_Frequency value="14205.0"/>
+    <Range_Sampling_Distance value="0.05"/>
+    <Min_Pulse_Length value="0.071"/>
+    <Rates>
+      <Repetition value="15"/>
+      <Bathy value="15"/>
+      <Attitude value="0"/>
+      <Imagery value="15"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T20P (200kHz 512 Beams)" key="sb20a">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T20P (200kHz 256 Beams)" key="sb20b">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T20P (400kHz 256 Beams)" key="sb20c">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T20P (400kHz 512 Beams)" key="sb20d">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (200kHz 512 Beams)" key="sb50a">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (200kHz 256 Beams)" key="sb50b">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (400kHz 256 Beams)" key="sb50c">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (400kHz 512 Beams)" key="sb50d">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="34722.222222"/>
+    <Range_Sampling_Distance value="0.02"/>
+    <Min_Pulse_Length value="0.033"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (200kHz 512 Beams) Hi-Res" key="sb50e">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="65789.473684"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.016"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (200kHz 256 Beams) Hi-Res" key="sb50f">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="2"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="65789.473684"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.016"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (400kHz 256 Beams) Hi-Res" key="sb50g">
+    <Max_Num_Beams value="256"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="65789.473684"/>
+    <Range_Sampling_Distance value="0.021"/>
+    <Min_Pulse_Length value="0.016"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Reson SeaBat T50P (400kHz 512 Beams) Hi-Res" key="sb50h">
+    <Max_Num_Beams value="512"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="65789.473684"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.016"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="50"/>
+      <Attitude value="0"/>
+      <Imagery value="50"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Ross 950" key="ross950">
+    <Max_Num_Beams value="1"/>
+    <Operating_Frequency_1 value="120.0"/>
+    <Operating_Frequency_2 value="28"/>
+    <Max_Angle value="0.0"/>
+    <Beam_Width_Across value="10.0"/>
+    <Beam_Width_Along value="10.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="2000.0"/>
+    <Range_Sampling_Distance value="0.06"/>
+    <Min_Pulse_Length value=".1"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="No"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="No"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="SeaBeam 1180" key="en1180">
+    <Max_Num_Beams value="126"/>
+    <Operating_Frequency_1 value="180.5"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="77.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="24000.0"/>
+    <Range_Sampling_Distance value="0.06"/>
+    <Min_Pulse_Length value="0.15"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="No"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="SeaBeam 2112" key="sb2112">
+    <Max_Num_Beams value="151"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="5000.0"/>
+    <Range_Sampling_Distance value="0.30"/>
+    <Min_Pulse_Length value="2.5"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="10"/>
+      <Imagery value="0"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="1"/>
+      <Imagery value="0"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="SEA SWATHplus - H" key="swathplus_h">
+    <Max_Num_Beams value="9000" />
+    <Operating_Frequency_1 value="468" />
+    <Operating_Frequency_2 value="0.0" />
+    <Max_Angle value="140.0" />
+    <Beam_Width_Across value="0.02" />
+    <Beam_Width_Along value="1.0" />
+    <Steering_Angle value="180.00" />
+    <Range_Sampling_Frequency value="50000.0" />
+    <Range_Sampling_Distance value="0.015" />
+    <Min_Pulse_Length value="0.0042" />
+    <Rates>
+      <Repetition value="50" />
+      <Bathy value="50" />
+      <Attitude value="50" />
+      <Imagery value="50" />
+    </Rates>
+    <Density>
+      <Bathy value="1" />
+      <Attitude value="1" />
+      <Imagery value="1" />
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" />
+      <SideScan value="Yes" />
+      <Towed value="No" />
+      <Calibrated value="No" />
+      <DualFrequency value="No" />
+      <HasAccuracy value="No" />
+      <Steered value="No" />
+      <Splithead value="Yes" />
+      <Bathymetric value="Yes" />
+      <Imagery value="Yes" />
+      <Attitude value="Yes" />
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="SEA SWATHplus - L" key="swathplus_l">
+    <Max_Num_Beams value="9000" />
+    <Operating_Frequency_1 value="117" />
+    <Operating_Frequency_2 value="0.0" />
+    <Max_Angle value="140.0" />
+    <Beam_Width_Across value="0.02" />
+    <Beam_Width_Along value="1.7" />
+    <Steering_Angle value="180.00" />
+    <Range_Sampling_Frequency value="50000.0" />
+    <Range_Sampling_Distance value="0.015" />
+    <Min_Pulse_Length value="0.0171" />
+    <Rates>
+      <Repetition value="50" />
+      <Bathy value="50" />
+      <Attitude value="50" />
+      <Imagery value="50" />
+    </Rates>
+    <Density>
+      <Bathy value="1" />
+      <Attitude value="1" />
+      <Imagery value="1" />
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" />
+      <SideScan value="Yes" />
+      <Towed value="No" />
+      <Calibrated value="No" />
+      <DualFrequency value="No" />
+      <HasAccuracy value="No" />
+      <Steered value="No" />
+      <Splithead value="Yes" />
+      <Bathymetric value="Yes" />
+      <Imagery value="Yes" />
+      <Attitude value="Yes" />
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="SEA SWATHplus - M" key="swathplus_m">
+    <Max_Num_Beams value="9000" />
+    <Operating_Frequency_1 value="234" />
+    <Operating_Frequency_2 value="0.0" />
+    <Max_Angle value="140.0" />
+    <Beam_Width_Across value="0.02" />
+    <Beam_Width_Along value="1.0" />
+    <Steering_Angle value="180.00" />
+    <Range_Sampling_Frequency value="50000.0" />
+    <Range_Sampling_Distance value="0.015" />
+    <Min_Pulse_Length value="0.0085" />
+    <Rates>
+      <Repetition value="50" />
+      <Bathy value="50" />
+      <Attitude value="50" />
+      <Imagery value="50" />
+    </Rates>
+    <Density>
+      <Bathy value="1" />
+      <Attitude value="1" />
+      <Imagery value="1" />
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" />
+      <SideScan value="Yes" />
+      <Towed value="No" />
+      <Calibrated value="No" />
+      <DualFrequency value="No" />
+      <HasAccuracy value="No" />
+      <Steered value="No" />
+      <Splithead value="Yes" />
+      <Bathymetric value="Yes" />
+      <Imagery value="Yes" />
+      <Attitude value="Yes" />
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EA400" key="ea400">
+    <Max_Num_Beams value="1"/>
+    <Operating_Frequency_1 value="210.0"/>
+    <Operating_Frequency_2 value="33.0"/>
+    <Max_Angle value="0.0"/>
+    <Beam_Width_Across value="7.0"/>
+    <Beam_Width_Along value="7.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="2000.0"/>
+    <Range_Sampling_Distance value="0.060"/>
+    <Min_Pulse_Length value="0.05"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="50"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="50"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="No"/>
+      <SideScan value="Yes"/>
+      <Towed value="No"/>
+      <Calibrated value="No"/>
+      <DualFrequency value="Yes"/>
+      <HasAccuracy value="No"/>
+      <Steered value="No"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM120" key="em120">
+    <Max_Num_Beams value="191"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="2000.0"/>
+    <Range_Sampling_Distance value="0.37"/>
+    <Min_Pulse_Length value="5.0"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM121" key="em121">
+    <Max_Num_Beams value="121"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="60.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="1250.0"/>
+    <Range_Sampling_Distance value="0.60"/>
+    <Min_Pulse_Length value="1"/>
+    <Rates>
+      <Repetition value="5"/>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM300" key="em300">
+    <Max_Num_Beams value="135"/>
+    <Operating_Frequency_1 value="30.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="5000.0"/>
+    <Range_Sampling_Distance value="0.15"/>
+    <Min_Pulse_Length value="5.0"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM302" key="em302">
+    <Max_Num_Beams value="432"/>
+    <Operating_Frequency_1 value="30.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="5000.0"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.7"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM710" key="em710">
+    <Max_Num_Beams value="200" /> 
+    <Operating_Frequency_1 value="85.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="75.0" /> 
+    <Beam_Width_Across value="2.0" /> 
+    <Beam_Width_Along value="2.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="15151.5" /> 
+    <Range_Sampling_Distance value="0.05" /> 
+    <Min_Pulse_Length value="0.167" /> 
+    <Rates>
+      <Repitition value="10" /> 
+      <Bathy value="10" /> 
+      <Attitude value="200" /> 
+      <Imagery value="10" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="100" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="Yes" /> 
+      <DualFrequency value="No" /> 
+      <HasAccuracy value="No" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="No" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="Yes" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM710 0.5x1" key="em710_0.5x1">
+    <Max_Num_Beams value="400" /> 
+    <Operating_Frequency_1 value="85.0" /> 
+    <Operating_Frequency_2 value="0.0" /> 
+    <Max_Angle value="75.0" /> 
+    <Beam_Width_Across value="0.5" /> 
+    <Beam_Width_Along value="1.0" /> 
+    <Steering_Angle value="0.0" /> 
+    <Range_Sampling_Frequency value="14000.0" /> 
+    <Range_Sampling_Distance value="0.05" /> 
+    <Min_Pulse_Length value="0.15" /> 
+    <Rates>
+      <Repitition value="30" /> 
+      <Bathy value="10" /> 
+      <Attitude value="200" /> 
+      <Imagery value="10" /> 
+    </Rates>
+    <Density>
+      <Bathy value="1" /> 
+      <Attitude value="100" /> 
+      <Imagery value="1" /> 
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes" /> 
+      <SideScan value="No" /> 
+      <Towed value="No" /> 
+      <Calibrated value="Yes" /> 
+      <DualFrequency value="No" /> 
+      <HasAccuracy value="No" /> 
+      <Steered value="Yes" /> 
+      <Splithead value="No" /> 
+      <Bathymetric value="Yes" /> 
+      <Imagery value="Yes" /> 
+      <Attitude value="Yes" /> 
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM1000" key="em1000">
+    <Max_Num_Beams value="60"/>
+    <Operating_Frequency_1 value="95.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="3.3"/>
+    <Beam_Width_Along value="3.3"/>
+    <Steering_Angle value="60.0"/>
+    <Range_Sampling_Frequency value="10000.0"/>
+    <Range_Sampling_Distance value="0.15"/>
+    <Min_Pulse_Length value="0.20"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM1002" key="em1002">
+    <Max_Num_Beams value="111"/>
+    <Operating_Frequency_1 value="95.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.3"/>
+    <Steering_Angle value="50.0"/>
+    <Range_Sampling_Frequency value="11970.0"/>
+    <Range_Sampling_Distance value="0.0626"/>
+    <Min_Pulse_Length value="0.20"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2000" key="em2000">
+    <Max_Num_Beams value="111"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="3.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="11000.0"/>
+    <Range_Sampling_Distance value="0.005"/>
+    <Min_Pulse_Length value="0.015"/>
+    <Rates>
+      <Repetition value="11"/>
+      <Bathy value="11"/>
+      <Attitude value="0"/>
+      <Imagery value="11"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="0"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040 300kHz 0.5x1_Normal Mode" key="em2040_300N">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="300.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="30600.0"/>
+    <Range_Sampling_Distance value="0.024"/>
+    <Min_Pulse_Length value="0.07"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040 200kHz 0.5x1_Normal Mode" key="em2040_200N">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="30600.0"/>
+    <Range_Sampling_Distance value="0.024"/>
+    <Min_Pulse_Length value="0.07"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040 400kHz 0.5x1_Normal Mode" key="em2040_400N">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="30600.0"/>
+    <Range_Sampling_Distance value="0.024"/>
+    <Min_Pulse_Length value="0.05"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040 300kHz 0.5x1_Single Sector" key="em2040_300SS">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="300.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="45900.0"/>
+    <Range_Sampling_Distance value="0.016"/>
+    <Min_Pulse_Length value="0.035"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040 200kHz 0.5x1_Single Sector" key="em2040_200SS">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="45900.0"/>
+    <Range_Sampling_Distance value="0.016"/>
+    <Min_Pulse_Length value="0.035"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040 400kHz 0.5x1_Single Sector" key="em2040_400SS">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="70.0"/>
+    <Beam_Width_Across value="0.5"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="45900.0"/>
+    <Range_Sampling_Distance value="0.016"/>
+    <Min_Pulse_Length value="0.025"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040C 200kHz" key="em2040C_200N">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="200.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="2.0"/>
+    <Beam_Width_Along value="2.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="61270.0"/>
+    <Range_Sampling_Distance value="0.015"/>
+    <Min_Pulse_Length value="0.025"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040C 300kHz" key="em2040C_300N">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="300.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.3"/>
+    <Beam_Width_Along value="1.3"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="61270.0"/>
+    <Range_Sampling_Distance value="0.015"/>
+    <Min_Pulse_Length value="0.025"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM2040C 400kHz" key="em2040C_400N">
+    <Max_Num_Beams value="400"/>
+    <Operating_Frequency_1 value="400.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="61270.0"/>
+    <Range_Sampling_Distance value="0.015"/>
+    <Min_Pulse_Length value="0.025"/>
+    <Rates>
+      <Repetition value="50"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM122" key="em122">
+    <Max_Num_Beams value="432"/>
+    <Operating_Frequency_1 value="12.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="75.0"/>
+    <Beam_Width_Across value="1.0"/>
+    <Beam_Width_Along value="1.0"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="3030.3"/>
+    <Range_Sampling_Distance value="0.245"/>
+    <Min_Pulse_Length value="2.0"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM3000" key="em3000">
+    <Max_Num_Beams value="128"/>
+    <Operating_Frequency_1 value="300.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="15000.0"/>
+    <Range_Sampling_Distance value="0.05"/>
+    <Min_Pulse_Length value="0.15"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM3000D" key="em3000d">
+    <Max_Num_Beams value="254"/>
+    <Operating_Frequency_1 value="300.0"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="15000.0"/>
+    <Range_Sampling_Distance value="0.05"/>
+    <Min_Pulse_Length value="0.15"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM3002" key="em3002">
+    <Max_Num_Beams value="254"/>
+    <Operating_Frequency_1 value="300"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="65.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="14000.0"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.15"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="No"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel>
+  <SonarModel label="Simrad EM3002D" key="em3002D">
+    <Max_Num_Beams value="508"/>
+    <Operating_Frequency_1 value="300"/>
+    <Operating_Frequency_2 value="0.0"/>
+    <Max_Angle value="100.0"/>
+    <Beam_Width_Across value="1.5"/>
+    <Beam_Width_Along value="1.5"/>
+    <Steering_Angle value="0.0"/>
+    <Range_Sampling_Frequency value="14000.0"/>
+    <Range_Sampling_Distance value="0.01"/>
+    <Min_Pulse_Length value="0.15"/>
+    <Rates>
+      <Repetition value="10"/>
+      <Bathy value="10"/>
+      <Attitude value="200"/>
+      <Imagery value="10"/>
+    </Rates>
+    <Density>
+      <Bathy value="1"/>
+      <Attitude value="100"/>
+      <Imagery value="1"/>
+    </Density>
+    <DeviceProperties>
+      <Multibeam value="Yes"/>
+      <SideScan value="No"/>
+      <Towed value="No"/>
+      <Calibrated value="Yes"/>
+      <DualFrequency value="No"/>
+      <HasAccuracy value="No"/>
+      <Steered value="Yes"/>
+      <Splithead value="Yes"/>
+      <Bathymetric value="Yes"/>
+      <Imagery value="Yes"/>
+      <Attitude value="Yes"/>
+    </DeviceProperties>
+  </SonarModel> 
+  <SonarModel label="Unknown" key="Unknown"/>
+</HIPSSonarModel>
