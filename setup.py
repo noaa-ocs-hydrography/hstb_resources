@@ -116,7 +116,11 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
-    ]
+    ],
+    package_data={
+        # If any package contains *.txt or *.rst files, include them:
+        "": ["*.*", ],
+    }
     # $ setup.py publish support.
     # cmdclass={
     #     'upload': UploadCommand,
