@@ -1,10 +1,16 @@
 import os
 import distutils.sysconfig
 
-from win32api import GetShortPathName as get_short_path_name
+try:
+    from win32api import GetShortPathName as get_short_path_name
+except ImportError:
+    pass  # fail silently on linux
 
 import HSTB
-from HSTB import Docs
+try:
+    from HSTB import Docs
+except ImportError:
+    pass
 
 def path_to_HSTB(*paths):
     return os.path.normpath(os.path.join(os.path.dirname(HSTB.__file__), *paths))
@@ -62,7 +68,10 @@ def path_to_html(*paths):
 
 
 _activate = path_to_conda("activate")  # e.g.  c:\pydroxl_19\scripts\activate
-pathToActivate = get_short_path_name(_activate)
+try:
+    pathToActivate = get_short_path_name(_activate)
+except:
+    pass
 _pythonpath = os.path.dirname(os.path.dirname(distutils.sysconfig.get_python_lib()))  # python_dir/lib/site-packages then back to python_dir
 _default_env = "Pydro367"
 
