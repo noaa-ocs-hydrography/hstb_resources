@@ -16,6 +16,7 @@ EMAIL = "barry.gallagher@noaa.gov, eric.g.younkin@noaa.gov, Jack.Riley@noaa.gov,
 AUTHOR = "Barry Gallagher; Eric Younkin; Jack Riley; Chen Zhang; Glen Rice"
 REQUIRES_PYTHON = '>=3.8.2'
 VERSION = '0.1.0'
+PACKAGES = ["HSTB.resources"] + find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"])
 
 # What packages are required for this module to be executed?
 REQUIRED = []
@@ -96,7 +97,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
+    packages=PACKAGES,
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
 
