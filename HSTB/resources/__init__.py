@@ -13,11 +13,14 @@ except ImportError:
     pass
 
 def path_to_HSTB(*paths):
-    return os.path.normpath(os.path.join(os.path.dirname(HSTB.__file__), *paths))
+    # for f in inspect.stack():
+    #     print('-', inspect.getframeinfo(f[0]))
+    print("Warning -- path_to_HSTB is not reliable in 3.8 with the move to git repo and namespaces")
+    return os.path.normpath(os.path.join(HSTB.__path__[0], *paths))
 
 
 def path_to_NOAA(*paths):
-    return os.path.normpath(os.path.join(path_to_HSTB(), "..\\..\\..", *paths))
+    return os.path.normpath(os.path.join(path_to_HSTB(), "..\\..\\..\\..\\..", *paths))
 
 
 def path_to_root_env(*paths):
@@ -45,7 +48,10 @@ def PathToResource(*paths):
 
 
 def path_to_docs(*paths):
-    return os.path.normpath(os.path.join(os.path.dirname(Docs.__file__), *paths))
+    try:
+        return os.path.normpath(os.path.join(os.path.dirname(Docs.__file__), *paths))
+    except:  # @FIXME temporary workaround until docs are moved to 3.8 with github repos
+        return ""
 
 
 def PathToDocs(*paths):
