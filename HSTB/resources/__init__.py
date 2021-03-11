@@ -46,14 +46,12 @@ def path_to_resource(*paths):
 def PathToResource(*paths):
     return path_to_resource(*paths)
 
-
+# @todo remove these Docs functions and leave it to the individual apps to specify the locations
 def path_to_docs(*paths):
-    try:
-        return os.path.normpath(os.path.join(os.path.dirname(Docs.__file__), *paths))
-    except:  # @FIXME temporary workaround until docs are moved to 3.8 with github repos
-        return ""
+    return os.path.normpath(os.path.join(os.path.dirname(Docs.__file__), *paths))
 
 
+# @todo remove these Docs functions and leave it to the individual apps to specify the locations
 def PathToDocs(*paths):
     """ returns full path to the Docs directory and appends any subdirectories specified
 
