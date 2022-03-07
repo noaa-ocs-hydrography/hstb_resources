@@ -78,7 +78,7 @@ try:
 except:
     pass
 _pythonpath = os.path.dirname(os.path.dirname(distutils.sysconfig.get_python_lib()))  # python_dir/lib/site-packages then back to python_dir
-_default_env = "Pydro367"
+_default_env = "Pydro38"
 
 
 def create_env_cmd(env=_default_env, persistant=False):
