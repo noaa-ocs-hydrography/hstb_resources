@@ -6,26 +6,31 @@ try:
 except ImportError:
     pass  # fail silently on linux
 
-import HSTB
 try:
     from HSTB import Docs
 except ImportError:
     pass
 
-def path_to_HSTB(*paths):
-    # for f in inspect.stack():
-    #     print('-', inspect.getframeinfo(f[0]))
-    print("Warning -- path_to_HSTB is not reliable in 3.8 with the move to git repo and namespaces")
-    print('Warning -- this should be removed and we should use HSTB.shared instead')
+def _path_to_HSTB(*paths, suppress_warning=False):
+    if not suppress_warning:
+        print("Warning -- path_to_HSTB is not reliable in 3.8 with the move to git repo and namespaces")
+        print('Warning -- this would return the path to HSTB inside git_repos\\hstb_resources which is probably not desired')
+        # import importlib
+        # spec = importlib.util.find_spec("HSTB.kluster")
+        # pathlib.Path(spec.origin).parent.joinpath("images\\kluster_img.ico")
     return os.path.normpath(os.path.join(os.path.dirname(os.path.dirname(__file__)), *paths))
 
 
 def path_to_NOAA(*paths):
-    return os.path.normpath(os.path.join(path_to_HSTB(), "..\\..\\..\\..\\..", *paths))
+    return os.path.normpath(os.path.join(_path_to_HSTB(suppress_warning=True), "..\\..\\..\\..\\..", *paths))
 
 
 def path_to_root_env(*paths):
     return os.path.normpath(os.path.join(path_to_NOAA(), "..", *paths))
+
+
+def path_to_supplementals(*paths):
+    return os.path.normpath(os.path.join(path_to_NOAA(), 'supplementals', *paths))
 
 
 def path_to_conda(*paths):
