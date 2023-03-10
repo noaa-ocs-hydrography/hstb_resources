@@ -116,7 +116,9 @@ def create_env_cmd_list(env=_default_env, persistant=False):
     # run shell (/K: leave open (debugging), /C close the shell)
     p_switch = "/K" if persistant else "/C"
     command = ["cmd.exe", p_switch,
-               "set", "pythonpath=&&",
+               "set", "pythonpath=&&", "set",
+               # in windows 11 these environment variables are stopping the conda activate from working
+               "CONDA_SHLVL=&&", "set", "QT_PLUGIN_PATH=&&", "set", "QT_QPA_PLATFORM_PLUGIN_PATH=&&",
                "set", "TCL_LIBRARY=&&", "set", "TIX_LIBRARY=&&", "set", "TK_LIBRARY=&&",
                ]
     if env:
